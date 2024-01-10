@@ -101,18 +101,6 @@ const AnimeItem = () => {
                     </iframe>
                 }
             </div>
-            <div className="trailer-container">
-                    <div>
-                        <iframe
-                            src="https://www1.gogoanime.cm//deep-insanity-the-lost-child-episode-9"
-                            title={title}
-                            width="800"
-                            height="450"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                            allowFullScreen>
-                        </iframe>
-                    </div>
-            </div>
             <h3 className="title">Characters</h3>
             <div className="characters">
                 {characters.map((character, index) => {
